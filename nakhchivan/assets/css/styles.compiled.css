@@ -2092,27 +2092,27 @@ blockquote.fa-pull-right:before,
 }
 
 .fa-chevron-double-down:before {
-  content: "";
+  content: "v";
 }
 
 .fa-chevron-double-left:before {
-  content: "";
+  content: "v";
 }
 
 .fa-chevron-double-right:before {
-  content: "";
+  content: "v";
 }
 
 .fa-chevron-double-up:before {
-  content: "";
+  content: "v";
 }
 
 .fa-chevron-down:before {
-  content: "";
+  content: "v";
 }
 
 .fa-chevron-left:before {
-  content: "";
+  content: "v";
 }
 
 .fa-chevron-right:before {
@@ -2128,7 +2128,7 @@ blockquote.fa-pull-right:before,
 }
 
 .fa-chevron-square-right:before {
-  content: "";
+  content: "v";
 }
 
 .fa-chevron-square-up:before {
@@ -20625,7 +20625,7 @@ input.LocationAutosuggest__input___2M51F {
   animation-name: cl2;
 }
 
-.intro_sliders video {
+.latifvideo {
   position: absolute;
   top: 0;
   right: 0;
@@ -20635,11 +20635,15 @@ input.LocationAutosuggest__input___2M51F {
   object-position: 75% 50%;
 }
 
-@media only screen and (max-width: 699px) {
-  .intro_sliders video {
-    display: none;
-  }
-}
+/* .intro_sliders video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 75% 50%
+} */
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
