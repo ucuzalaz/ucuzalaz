@@ -51,7 +51,13 @@
 
 <body class="home"><div id="wrapper">
 <header id="header"></header>
-    
+    <script>
+        window.onload = function(){
+            $.get("nav.html", function(data){
+                $("#header").html(data);
+            })
+        }
+    </script>
     
     <main id="main">
 <div class="intro_sliders">
